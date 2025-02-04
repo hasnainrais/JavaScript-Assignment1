@@ -25,7 +25,11 @@ alert("You have visited this site " + num + " times");
 
 var birthYear = 1999;
 
-console.log("My Birthday Year is " + birthYear + "\n" + "Data type of my declared variable is number");
+
+
+
+document.write("My Birthday Year is " + birthYear + " "  + "Data type of my declared variable is number") ;
+
 
 
 //  Question No: 04

@@ -66,12 +66,12 @@ alert("I am trying to learn from the Book " + book );
 
 var message = "Yah! I can write HTML content through JavaScript";
 
-console.log(message);
+document.write(message);
 
 
 
 //  Question No: 09
 
-var theEnd = "------ The End ------";
+var theEnd = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 
 alert(theEnd);
