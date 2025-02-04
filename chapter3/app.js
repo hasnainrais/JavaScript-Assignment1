@@ -28,7 +28,7 @@ var birthYear = 1999;
 
 
 
-document.write("My Birthday Year is " + birthYear + " "  + "Data type of my declared variable is number") ;
+document.write("My Birthday Year is " + birthYear + "<br/>"  + "Data type of my declared variable is number") ;
 
 
 
