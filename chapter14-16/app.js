@@ -142,6 +142,71 @@ citiesList.splice(0,3);
 document.write(`<p>Selected Cities: ${citiesList}</p>`);
 
 
+//  Question No:12
+
+
+let arr = ["This", "is", "my", "cat"];
+
+document.write(`<h1>Array:<h1/>${arr}`);
+
+document.write(`<h1>String:<h1/>${arr.join(" ")}<br/>`);
+
+
+//  Qusetion No:13
+
+
+let devices = ["keyboard", "mouse", "printer", "monitor"];
+
+document.write(`<h1>Devices:<h1/> ${devices}`);
+
+document.write(`<h1>Out:<h1/>${devices.shift()}`);
+document.write(`<h1>Out:<h1/>${devices.shift()}`);
+document.write(`<h1>Out:<h1/>${devices.shift()}`);
+document.write(`<h1>Out:<h1/>${devices.shift()}`);
+
+
+// Question No:14
+
+
+let devices2 = ["keyboard", "mouse", "printer", "monitor"];
+
+
+document.write(`<h1>Devices:<h1/> ${devices2}`);
+
+document.write(`<h1>Out:<h1/>${devices2.pop()}`);
+document.write(`<h1>Out:<h1/>${devices2.pop()}`);
+document.write(`<h1>Out:<h1/>${devices2.pop()}`);
+document.write(`<h1>Out:<h1/>${devices2.pop()}<br/>`);
+
+
+//  Question No:15
+
+
+let mobManufaturer = ["Apple", "Samsung", "Nokia", "Motorola", "Sony", "Haier"];
+
+document.write(`<label>Mobile Manufaturer</label>
+    <select>
+    <option value = "apple">${mobManufaturer.shift()}</option>
+    <option value = "samsung">${mobManufaturer.shift()}</option>
+    <option value = "nokia">${mobManufaturer.shift()}</option>
+    <option value = "motorola">${mobManufaturer.shift()}</option>
+    <option value = "sony">${mobManufaturer.shift()}</option>
+    <option value = "haier">${mobManufaturer.shift()}</option>
+</select>`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
